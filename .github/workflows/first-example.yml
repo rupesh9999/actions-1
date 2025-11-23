@@ -15,7 +15,7 @@ jobs:
             ls -la
             cat README.md
         
-        - nmae: Generate ASCII Artwork
+        - name: Generate ASCII Artwork
           run: cowsay -f dragon "Hello, GitHub Actions!" >> dragon.txt
 #      # - name: Welcome message
 #          run: echo "my first github actions job"
